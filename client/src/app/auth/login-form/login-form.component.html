@@ -1,0 +1,17 @@
+<h4>Login</h4>
+
+<form [formGroup]="formData" (submit)="submit()">
+  <label>Email:</label>
+  <div class="form-control">
+    <input type="email" formControlName="email" class="form-input">
+  </div>
+  <label>Password:</label>
+  <div class="form-control">
+    <input type="password" formControlName="password" class="form-input">
+  </div>
+  <button type="button" (click)="reset()" class="btn btn btn-default">Reset</button>
+  <button type="submit" [disabled]="!formValid" class="btn btn-primary">Login</button>
+</form>
+
+<p>Data: {{ formValue | json }}</p>
+<p>Valid: {{ formValid }}</p>

@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "database": {
+    "username": "",
+    "password": "",
+    "hostname": "",
+    "port": "",
+    "database": ""
+  },
+  "options": {
+    "jwtExpire": "12h"
+  }
+}

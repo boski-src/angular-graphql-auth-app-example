@@ -1,0 +1,13 @@
+{
+  "name": "XXX Name",
+  "database": {
+    "username": "admin",
+    "password": "xxxxxxx",
+    "hostname": "mlab.com",
+    "port": "27017",
+    "database": "graphql-auth"
+  },
+  "options": {
+    "jwtExpire": "12h"
+  }
+}

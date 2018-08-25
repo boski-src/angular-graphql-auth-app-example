@@ -1,0 +1,21 @@
+<h4>Register</h4>
+
+<form [formGroup]="formData" (submit)="submit()">
+  <label>Name:</label>
+  <div class="form-control">
+    <input type="text" formControlName="name" class="form-input">
+  </div>
+  <label>Email:</label>
+  <div class="form-control">
+    <input type="email" formControlName="email" class="form-input">
+  </div>
+  <label>Password:</label>
+  <div class="form-control">
+    <input type="password" formControlName="password" class="form-input">
+  </div>
+  <button type="button" (click)="reset()" class="btn btn-default">Reset</button>
+  <button type="submit" [disabled]="!formValid" class="btn btn-success">Create account</button>
+</form>
+
+<p>Data: {{ formValue | json }}</p>
+<p>Valid: {{ formValid }}</p>

@@ -1,0 +1,8 @@
+<h1>
+  Dashboard
+  <span class="right">
+    <button (click)="authService.logout()" class="btn btn-danger">Logout, {{ user.name }}</button>
+  </span>
+</h1>
+<hr>
+<router-outlet></router-outlet>

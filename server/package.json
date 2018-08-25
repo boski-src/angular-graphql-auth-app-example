@@ -1,0 +1,38 @@
+{
+  "name": "server-auth-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel ./src -d ./dist -D",
+    "prod": "NODE_ENV=production node",
+    "dev": "nodemon -w ./src --exec \"NODE_ENV=development babel-node ./src/server.js\"",
+    "dev:debug": "nodemon -w ./src --exec \"NODE_ENV=development DEBUG=* babel-node ./src/server.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "graphql": "^0.13.2",
+    "graphql-playground-middleware-express": "^1.7.2",
+    "graphql-server-express": "^1.4.0",
+    "graphql-subscriptions": "^0.5.8",
+    "helmet": "^3.13.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.6",
+    "morgan": "^1.9.0",
+    "subscriptions-transport-ws": "^0.9.14"
+  }
+}
