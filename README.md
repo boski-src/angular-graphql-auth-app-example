@@ -1,4 +1,4 @@
-# graphql-auth-angular-app-example
+# angular-graphql-auth-app-example
 
 > An Angular app example with authentication using GraphQL communication (Apollo), backend built on node platform.
 
@@ -9,7 +9,7 @@ Step by step, how to get an app running.
 
 1. Clone project to your path
 	```
-	git clone https://github.com/boski-src/graphql-auth-angular-app-example.git <ProjectName>
+	git clone https://github.com/boski-src/angular-graphql-auth-app-example.git <ProjectName>
 	```
 2. Go to project dir	
 	```
@@ -33,4 +33,4 @@ Step by step, how to get an app running.
 	npm run dev
 	```
 
-#### Build with (dependencies): [click here](https://github.com/boski-src/graphql-auth-angular-app-example/network/dependencies)
+#### Build with (dependencies): [click here](https://github.com/boski-src/angular-graphql-auth-app-example/network/dependencies)
