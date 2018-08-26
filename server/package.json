@@ -33,6 +33,7 @@
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.2.6",
     "morgan": "^1.9.0",
-    "subscriptions-transport-ws": "^0.9.14"
+    "subscriptions-transport-ws": "^0.9.14",
+    "apollo-server-express": "^2.0.4"
   }
 }
